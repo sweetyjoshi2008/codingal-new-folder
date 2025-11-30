@@ -1,0 +1,27 @@
+/* Global Properties */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #0c0524;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+h1,
+h2,
+h3 {
+    font-family: "Roboto Slab", serif;
+}
+
+/* Navigation */
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #c1971c;
+    transition: .25 ease;
+}
