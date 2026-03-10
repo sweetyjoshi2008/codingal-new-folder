@@ -2,8 +2,8 @@ from tkinter import *
 
 # One function (one algorithm) to draw a face
 def draw_face(canvas, x, y, color, mood):
-    # Face circle
-    canvas.create_oval(x-50, y-50, x+50, y+50, fill=color, outline="black")
+    # Face square
+    canvas.create_rectangle(x-50, y-50, x+50, y+50, fill=color, outline="black")
 
     # Eyes
     canvas.create_oval(x-25, y-20, x-15, y-10, fill="black")
